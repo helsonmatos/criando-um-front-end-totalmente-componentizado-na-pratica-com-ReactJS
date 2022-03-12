@@ -13,11 +13,11 @@ const App = () => {
           <div>
             <div>
               <h4>Followers</h4>
-              <span>5</span>
+              <span>10</span>
             </div>
             <div>
               <h4>Starreds</h4>
-              <span>5</span>
+              <span>10</span>
             </div>
             <div>
               <h4>Followings</h4>
