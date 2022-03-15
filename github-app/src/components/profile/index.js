@@ -1,19 +1,15 @@
 import React from "react";
-import * as S from './styled';
 
 
 const Profile = () => {
     return (
-        <S.Wrapper>
-            <S.WrapperImage>
-                <img src="https://avatars.githubusercontent.com/u/77506662?v=4" alt="Avatar of user"/>
-            </S.WrapperImage>
+        <div className="mudando">
+            <link rel="stylesheet" type="text/css" href="styled.css"></link>
+        <div>
+            <img src="https://avatars.githubusercontent.com/u/77506662?v=4" alt="Avatar of user"/>
             <h1>Helson Matos</h1>
-            <S.WrapperUserName>
             <h3>Uername:</h3>
-            <span>helsonmatos</span>
-            </S.WrapperUserName>
-            <S.WrapperStatusCount>
+            <span className="avatar">helsonmatos</span>
                 <div>
                     <h4>Followers</h4>
                     <span>10</span>
@@ -26,8 +22,8 @@ const Profile = () => {
                     <h4>Followings</h4>
                     <span>5</span>
                 </div>
-            </S.WrapperStatusCount>       
-        </S.Wrapper>
+            </div>
+        </div>
    ) 
 };
 

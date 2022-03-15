@@ -1,0 +1,14 @@
+classname.avatar {
+    background: black;
+}
+
+div.mudando {
+    display: flex; 
+    align-items: flex-start;
+}
+
+img {
+    border-radius: 50%; 
+    width: 200px; 
+    margin: 8px;
+}
